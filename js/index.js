@@ -29,9 +29,9 @@ $(function(){
     $('.m5-btn-box li').each(function (index) {
         $(this).click(function () {
             for(var i=0;i<4;i++){
-                $('.m5-btn-box li').eq(i).css('background','url("images/m5-1.png") no-repeat center top')
+                $('.m5-btn-box li').eq(i).css({'background-image':'url("images/m5-1.png")','background-size':'4.25rem 1.475rem'})
             }
-            $(this).css('background','url("images/m5-1-2.png") no-repeat center top')
+            $(this).css({'background-image':'url("images/m5-1-2.png")','background-size':'4.25rem 1.75rem'})
             $('.m5-show').hide().eq(index).show()
         })
     })

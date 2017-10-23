@@ -483,14 +483,16 @@ header p{
     font-size:0.7rem;
     font-weight:bold;
     color: #ffffff;
-    background: url("../images/m5-1.png") no-repeat center top;
-    background-size: 4.25rem;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url("../images/m5-1.png");
+    background-size: 4.25rem 1.475rem;
     float: left;
     margin-left:0.15rem;
 }
 .m5-btn-box li:first-child{
-    background: url("../images/m5-1-2.png") no-repeat center top;
-    background-size: 4.25rem;
+    background-image: url("../images/m5-1-2.png");
+    background-size: 4.25rem 1.75rem;
 }
 .m5-show{
     width:17.0rem;
