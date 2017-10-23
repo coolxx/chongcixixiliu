@@ -124,7 +124,7 @@ header p{
     height:8.7rem;
     margin: 0 auto;
     background: #ffffff;
-    border-radius: 0.25rem;
+    border-radius: 0 0 0.25rem 0.25rem;
 }
 .m1-form p{
     font-size:0.65rem;
