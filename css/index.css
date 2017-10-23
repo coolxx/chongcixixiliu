@@ -160,7 +160,7 @@ header p{
     display: block;
     width:5.5rem;
     height:1.3rem;
-    line-height:1.32rem;
+    line-height:1.33rem;
     margin: 0.75rem auto 0;
     background: #c6182b;
     border:none;
@@ -181,6 +181,7 @@ header p{
     margin-top: -3.025rem;
     overflow: hidden;
     display: none;
+    z-index: 9;
 }
 .tankuang img{
     float: right;
@@ -729,7 +730,7 @@ header p{
     display: block;
     width:5.5rem;
     height:1.3rem;
-    line-height:1.32rem;
+    line-height:1.33rem;
     margin: 0.75rem auto 0;
     background: #c6182b;
     border:none;
