@@ -501,7 +501,13 @@ header p{
     line-height:40px;
     margin-top:14px;
 }
-.m5-show a{
+.m5-show p a{
+    font-size:24px;
+    text-decoration: underline;
+    color: #f4172c;
+    line-height: 60px;
+}
+.m5-show > a{
     display: block;
     width:318px;
     height: 60px;

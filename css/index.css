@@ -82,7 +82,7 @@ header p{
     margin-top:0.875rem;
 }
 .m1-ask{
-    width:17.425rem;
+    width:17.4rem;
     height:2.55rem;
     overflow: hidden;
     margin: 0.875rem auto 0;
@@ -511,7 +511,13 @@ header p{
     line-height:1.0rem;
     margin-top:0.35rem;
 }
-.m5-show a{
+.m5-show p a{
+    font-size: 0.6rem;
+    text-decoration: underline;
+    color: #f4172c;
+    line-height: 1.5rem
+}
+.m5-show > a{
     display: block;
     width:7.95rem;
     height: 1.5rem;
