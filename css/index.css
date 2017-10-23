@@ -780,3 +780,16 @@ header p{
     background: url(../images/fix2.png) no-repeat 15% center #e62929;
     background-size: 1.525rem;
 }
+.zixun{
+    position: fixed;
+    right: 0.05rem;
+    top: 40%;
+    overflow: hidden;
+    z-index: 99999
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width: 1.85rem;
+}
